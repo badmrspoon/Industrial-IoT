@@ -5,8 +5,8 @@ on:
     branches: [ "main", "release/*" ]
   pull_request:
     branches: [ "main", "release/*" ]
-  schedule:
-    - cron: '37 9 * * 5'
+  #schedule:
+    #- cron: '37 9 * * 5'
 
 jobs:
   analyze:
